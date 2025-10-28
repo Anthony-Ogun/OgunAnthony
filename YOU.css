@@ -1,0 +1,179 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.searchbar{
+    color: white;
+    background-color:  rgba(7, 7, 7, 0.781);
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    outline: 1px solid rgb(112, 109, 109);
+    border: none;
+}
+header>img{
+    border-radius: 50%;
+    height: 35px;
+    margin-left: auto;
+}
+header>h2{
+    color: white;
+}
+h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+i{
+    color: red;
+    font-size: 25px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 570px;
+    width: 15%;
+}
+.div1>a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5%;
+    color: white;
+}
+.div2{
+    width: 85%;
+}
+.yt-links{
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow-x: hidden;
+}
+.yt-links>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(53, 52, 52);
+}
+.row-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.USE-AI{
+    margin-left: 20px;
+}
+.USE-AI>img{
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+}
+.USE-AI>h4{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.USE-AI>button{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left:10px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+.speed{
+    margin-left: 10px;
+}
+.speed>img{
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+}
+.speed>h4{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.yrs>img{
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+}
+.yrs{
+    margin-left: 25px;
+}
+.yrs{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.925);
+}
+.shorts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.sonic>img{
+    width: 200px;
+    border-radius: 10px;
+}
+.moments{
+    margin-left: 0.5%;
+}
+.moments>img{
+    width: 200px;
+    border-radius: 10px;
+}
+.the-end{
+    margin: 2%;
+    margin-top: 0%;
+}
+.the-end>img{
+    width: 200px;
+    border-radius: 10px;
+}
+.saitama{
+    margin-left: 2%;
+}
+.saitama>img{
+    width: 200px;
+    border-radius: 10px;
+}
+.speedometer{
+    margin-left: 2%;
+}
+.speedometer>img{
+    width: 200px;
+    border-radius: 10px;
+}
+@media(max-width: 320px){
+    .USE-AI>img{
+        width: 50%;
+    }
+    .USE-AI>h4{
+        font-size: smaller;
+    }
+
+}
